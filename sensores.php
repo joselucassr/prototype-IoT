@@ -40,7 +40,7 @@
                 <i class="fas fa-battery-full d-inline float-right iconBateria"></i>
             </div>
             <div class="corpo">
-                <div class="slider"></div>
+                <div id="slider" class="slider"></div>
             </div>
         </div>
     </div>
