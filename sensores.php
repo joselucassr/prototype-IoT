@@ -10,6 +10,8 @@
     <!-- CSS Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
+
     <title>Prototype Sensores</title>
 </head>
 <body>
@@ -26,7 +28,7 @@
                 <i class="fas fa-battery-full d-inline float-right iconBateria"></i>
             </div>
             <div class="corpo">
-                <p>Gráfico</p>
+                <div id="slider" class="slider"></div>
             </div>
         </div>
 
@@ -37,12 +39,15 @@
                 <i class="fas fa-battery-full d-inline float-right iconBateria"></i>
             </div>
             <div class="corpo">
-                <p>Gráfico</p>
+                <div class="slider"></div>
             </div>
         </div>
     </div>
 </div>
 
+<!-- Scripts Slider -->
+<script type="text/javascript" src="https://rawgit.com/kimmobrunfeldt/progressbar.js/1.0.0/dist/progressbar.js"></script>
+<script type="text/javascript" src="js/slider.js"></script>
 <!-- Scripts bootstrap -->
 <script src="js/bootstrap.js"></script>
 <script src="js/jquery-3.3.1.slim.min.js"></script>
