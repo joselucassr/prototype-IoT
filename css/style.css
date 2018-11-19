@@ -12,3 +12,26 @@
     font-size: 125px;
     margin-top: 25%;
 }
+
+.sensores{
+    /* border: 3px solid black; */
+    width: 30%;
+    margin: 30px 5px;
+}
+
+.nomeSensor{
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.corpo{
+    border: 1px solid rgba(0,0,0,0.4);
+    border-radius: 10px;
+    height: 100%;
+}
+
+.iconBateria{
+    font-size: 25px;
+    margin-top: 5px;
+}
