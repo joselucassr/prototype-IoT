@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed:700');
+
+.titulo{
+    color: #4b4b4b;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+}
 
 .formCard{
     margin-top: 150px;
@@ -28,9 +34,10 @@
 }
 
 .corpo{
-    border: 1px solid rgba(0,0,0,0.4);
+    /*border: 1px solid rgba(0,0,0,0.4);*/
     border-radius: 10px;
     height: 100%;
+    box-shadow: 9px 9px 28px rgba(0,0,0,0.1);
 }
 
 .iconBateria{
@@ -55,7 +62,8 @@
 }
 
 .hora{
-    margin-left: 47%;
+    margin-left: 62%;
     margin-bottom: -25px;
     font-size: 15px;
+    font-family: 'Roboto Condensed', sans-serif;
 }

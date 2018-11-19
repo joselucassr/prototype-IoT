@@ -19,8 +19,8 @@
 <?php include_once "includes/navbar.php"?>
 
 <div class="container col-12">
+    <h1 class="text-center titulo">Meus Sensores</h1>
     <div class="row col-12" style="padding-top: 20px;">
-
         <!-- Card Sensor -->
         <div class="sensores">
             <div class="nomeSensor">

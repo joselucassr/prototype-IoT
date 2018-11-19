@@ -17,8 +17,8 @@
       <h1 class="col-12">Login</h1>
         <form>
             <div class="form-group">
-                <label>Email</label>
-                <input type="email" class="form-control"placeholder="Digite o email">
+                <label>CNPJ</label>
+                <input type="number" class="form-control"placeholder="Digite o CNPJ">
             </div>
             <div class="form-group">
                 <label>Senha</label>
