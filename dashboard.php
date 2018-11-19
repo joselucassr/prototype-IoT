@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- CSS Custom -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- CSS Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <title>Prototype Login</title>
 </head>
@@ -14,21 +16,61 @@
 
 <?php include_once "includes/navbar.php"?>
 
-<div class="container">
-    <div class="col-6 mx-auto formCard">
-        <h1 class="col-12">Login</h1>
-        <form>
-            <div class="form-group">
-                <label>Email</label>
-                <input type="email" class="form-control"placeholder="Digite o email">
+<div class="container col-12">
+    <div class="row col-12" style="padding-top: 20px;">
+
+        <!-- Card Grupo -->
+        <div class="card" style="margin: 0 5px 10px; width: 30%">
+            <div class="card-header">
+                Nome do Grupo
             </div>
-            <div class="form-group">
-                <label>Senha</label>
-                <input type="password" class="form-control"placeholder="Senha">
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">X Dias de Monitoramento</li>
+                <li class="list-group-item">X Notificações Enviadas</li>
+                <li class="list-group-item">X Bateria(s) Fraca(s)</li>
+                <li class="list-group-item">X Alertas</li>
+                <li class="list-group-item">Status: X</li>
+                <li class="list-group-item"><a href="#" class="float-right">Veja os seus sensores</a></li>
+            </ul>
+        </div>
+        <!-- Card Grupo -->
+        <div class="card" style="margin: 0 5px 10px; width: 30%">
+            <div class="card-header">
+                Nome do Grupo
             </div>
-            <button type="submit" class="btn btn-primary">Login</button>
-            <a href="#" class="btn btn-success float-right">Registrar</a>
-        </form>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">X Dias de Monitoramento</li>
+                <li class="list-group-item">X Notificações Enviadas</li>
+                <li class="list-group-item">X Bateria(s) Fraca(s)</li>
+                <li class="list-group-item">X Alertas</li>
+                <li class="list-group-item">Status: X</li>
+                <li class="list-group-item"><a href="#" class="float-right">Veja os seus sensores</a></li>
+            </ul>
+        </div>
+        <!-- Card Grupo -->
+        <div class="card" style="margin: 0 5px 10px; width: 30%">
+            <div class="card-header">
+                Nome do Grupo
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">X Dias de Monitoramento</li>
+                <li class="list-group-item">X Notificações Enviadas</li>
+                <li class="list-group-item">X Bateria(s) Fraca(s)</li>
+                <li class="list-group-item">X Alertas</li>
+                <li class="list-group-item">Status: X</li>
+                <li class="list-group-item"><a href="#" class="float-right">Veja os seus sensores</a></li>
+            </ul>
+        </div>
+
+        <!-- Adicionar Grupo -->
+        <div class="card text-center" style="margin: 0 5px 10px; width: 30%">
+            <div class="card-header">
+                Adicionar Grupo
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item"><a href="#"><i class="fas fa-plus mais"></i></a></li>
+            </ul>
+        </div>
     </div>
 </div>
 
