@@ -28,7 +28,8 @@
                 <i class="fas fa-battery-full d-inline float-right iconBateria"></i>
             </div>
             <div class="corpo">
-                <div id="slider" class="slider"></div>
+                <h1 class="temperatura">-3 °C</h1>
+                <p class="hora">13/11/2018 14:30:15</p>
             </div>
         </div>
 

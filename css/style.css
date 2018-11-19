@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+
 .formCard{
     margin-top: 150px;
     width: 50%;
@@ -16,7 +18,7 @@
 .sensores{
     /* border: 3px solid black; */
     width: 30%;
-    margin: 30px 5px;
+    margin: 30px 15px;
 }
 
 .nomeSensor{
@@ -34,10 +36,26 @@
 .iconBateria{
     font-size: 25px;
     margin-top: 5px;
+    color: #218536;
 }
 
 .slider{
     width: 60%;
     height: 30%;
     margin: 5px 0 0 5px;
+}
+
+.temperatura{
+    color: #4caded;
+    font-size: 80px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.hora{
+    margin-left: 47%;
+    margin-bottom: -25px;
+    font-size: 15px;
 }
